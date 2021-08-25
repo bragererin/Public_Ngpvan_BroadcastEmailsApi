@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NgpVan.Broadcast.Email.Service</name>
+    </assembly>
+    <members>
+        <member name="M:NgpVan.Broadcast.Email.Service.BusinessLogic.IBroadcastEmailBusinessLogic.GetAllEmailsAsync">
+            <summary>
+            Retrieves a list of all emails.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NgpVan.Broadcast.Email.Service.Client.IBroadcastEmailApiClient.GetAllEmailsAsync">
+            <summary>
+            Returns a list of emails.
+            </summary>
+            <returns>A list of the emails .</returns>
+        </member>
+        <member name="M:NgpVan.Broadcast.Email.Service.Controllers.BroadcastEmailController.GetAllEmailsAsync">
+            <summary>
+                Retrieves a list of sent email messages
+            </summary>
+            <returns>List of emails</returns>
+            <response code="200">OK</response>
+        </member>
+        <member name="T:Refit.Implementation.Generated">
+            <inheritdoc />
+        </member>
+        <member name="T:Refit.Implementation.Generated.NgpVanBroadcastEmailServiceClientIBroadcastEmailApiClient">
+            <inheritdoc />
+        </member>
+        <member name="P:Refit.Implementation.Generated.NgpVanBroadcastEmailServiceClientIBroadcastEmailApiClient.Client">
+            <inheritdoc />
+        </member>
+        <member name="M:Refit.Implementation.Generated.NgpVanBroadcastEmailServiceClientIBroadcastEmailApiClient.#ctor(System.Net.Http.HttpClient,Refit.IRequestBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Refit.Implementation.Generated.NgpVanBroadcastEmailServiceClientIBroadcastEmailApiClient.GetAllEmailsAsync">
+            <inheritdoc />
+        </member>
+        <member name="M:Refit.Implementation.Generated.NgpVanBroadcastEmailServiceClientIBroadcastEmailApiClient.NgpVan#Broadcast#Email#Service#Client#IBroadcastEmailApiClient#GetAllEmailsAsync">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
